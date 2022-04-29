@@ -1,11 +1,12 @@
 import React from 'react'
 import logo from './logo.svg'
 import './App.css'
+import { Metronome } from './Metronome'
 
 function App() {
   return (
     <div className="App">
-      <p>Hello World</p>
+      <Metronome />
     </div>
   )
 }
